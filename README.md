@@ -17,3 +17,6 @@ You can login to SSH with these credentials if necessary
 Username: urdusur
 Password: urd
 
+Note: don't expose the VM to the internet or other users on the local network, before changing the passwords. In URD this can be done under settnigs/ preferences / login. Make sure to also change the SSH account by logging in using:
+* ssh localhost -p 2222 -l urduser
+* passwd urduser
