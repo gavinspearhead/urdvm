@@ -19,9 +19,9 @@ VM of URD
 * You can now update spots under supply / spots, then actions / update spots. You can also index newsgroups under settings / newsgroups or subscribe to rss feeds under settings / rss feeds. The results will we shown under supply / group sets and supply rss sets respectively. 
 
 You can login to SSH with these credentials if necessary
-Username: urdusur
+Username: urduser
 Password: urd
 
-Note: don't expose the VM to the internet or other users on the local network, before changing the passwords. In URD this can be done under settnigs/ preferences / login. Make sure to also change the SSH account by logging in using:
+Note: don't expose the VM to the internet or other users on the local network, before changing the passwords. In URD this can be done under settings/ preferences / login. Make sure to also change the SSH account by logging in using:
 * ssh localhost -p 2222 -l urduser
 * passwd urduser
